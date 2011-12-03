@@ -1,0 +1,30 @@
+!!! 5
+
+/[if lt IE 7 ]
+  %html{ class: "ie ie6", lang: "en" }
+/[if IE 7 ]
+  %html{ class: "ie ie7", lang: "en" }
+/[if IE 8 ]
+  %html{ class: "ie ie8", lang: "en" }
+/[if (gte IE 9)|!(IE)]
+  %html{ lang: "en" }
+
+%head
+  %meta{ charset: "utf-8" }
+  %title "Joe Roberts aka Zefer"
+  %meta{ description: "" }
+  %meta{ author: "Joe Roberts" }
+  %meta{ name: "robots", content: "index,follow" }
+	
+  /[if lt IE 9]
+    %script{ src: "http://html5shim.googlecode.com/svn/trunk/html5.js" }
+	
+  %meta{ name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1" }
+	
+  %link{ rel: "stylesheet", href: "z.css"}
+  %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Podkova" }
+	
+  %link{ rel: "shortcut icon", href: "/favicon.png" }
+
+%body
+  =yield
