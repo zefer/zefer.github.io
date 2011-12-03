@@ -27,4 +27,6 @@
   %link{ rel: "shortcut icon", href: "/favicon.png" }
 
 %body
-  =yield
+  = yield
+  = render :haml, :_google_analytics
+  
