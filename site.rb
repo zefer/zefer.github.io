@@ -15,9 +15,11 @@ configure do
 end
 
 get '/' do
+  response['Cache-Control'] = "public, max-age=259200"
   haml :home
 end
 
 get "/z.css" do
+  response['Cache-Control'] = "public, max-age=259200"
   scss :z
 end
