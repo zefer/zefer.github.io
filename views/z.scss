@@ -56,4 +56,9 @@ a:hover { color: red; }
 
 .links li {
   float: left;
+  margin-right: 12px;
+  padding-right: 12px;
 }
+
+.links li a { color: red; }
+.links li a:hover { color: cyan; }
