@@ -26,25 +26,28 @@
 /* Styles
 ========= */
 
-p { margin: 0 0 12px 0; }
 em { font-style: italic; }
 strong { font-weight: bold; }
 small { font-size: 80%; }
 
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+h1 { font-size: 110px; margin-bottom: 14px; font-weight: bold; color: yellow; }
 
 body {
-  font-family: 'Podkova', serif;
+  font-family: 'Yanone Kaffeesatz', serif;
   color: #fff;
   background: #000;
-  font-size: 16px;
+  font-size: 40px;
   margin:0 40px;
 }
 
+a { color: cyan; text-decoration: none; }
+a:hover { color: red; }
+
 .intro {
-  margin: 8px 0;
+  margin: 8px 0 20px 0;
+  line-height: 120%;
 }
 
 .links {
