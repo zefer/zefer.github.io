@@ -1,17 +1,7 @@
-# zefer.co.uk
+# zefer.co
 
-My boring personal website!
+My trivial personal website!
 
 ## About
 
-It's a simple Sinatra app which can be run with:
-
-```ruby
-foreman start
-```
-
-or
-
-```ruby
-bundle exec ruby site.rb -p 5000
-```
+Plain old HTML & CSS makes me happy.
